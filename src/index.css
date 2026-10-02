@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-romantic {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-script {
+    font-family: 'Dancing Script', cursive;
+  }
+  .font-sans-clean {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Precise image alignment & object-position classes */
+.img-align-top {
+  object-position: center top !important;
+}
+
+.img-align-avatar {
+  object-position: center 18% !important;
+}
+
+.img-align-selfie {
+  object-position: center 6% !important;
+}
+
+.img-align-bitmoji {
+  object-position: center 3% !important;
+}
+
+.img-align-queen {
+  object-position: center 15% !important;
+}
+
+.img-align-retro {
+  object-position: center 12% !important;
+}
+
+.img-align-corporate {
+  object-position: center 10% !important;
+}
+
+
+/* Custom Glassmorphism & Ambient Animations */
+.glass-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card-rose {
+  background: rgba(244, 63, 94, 0.06);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(244, 63, 94, 0.2);
+}
+
+.glass-pill {
+  background: rgba(15, 7, 21, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(244, 63, 94, 0.3);
+}
+
+.glow-pink {
+  box-shadow: 0 0 35px -5px rgba(244, 63, 94, 0.35);
+}
+
+.glow-text-pink {
+  text-shadow: 0 0 20px rgba(244, 63, 94, 0.6);
+}
+
+.glow-purple {
+  box-shadow: 0 0 40px -5px rgba(168, 85, 247, 0.3);
+}
+
+/* Floating Hearts Background Animation */
+@keyframes floatUp {
+  0% {
+    transform: translateY(100vh) scale(0.5) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-10vh) scale(1.2) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.animate-float-heart {
+  animation: floatUp linear infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0512;
+}
+::-webkit-scrollbar-thumb {
+  background: #f43f5e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d48;
+}
