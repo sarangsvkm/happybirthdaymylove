@@ -164,19 +164,6 @@ export default function BirthdayHero({ activeUnlocked, togglePreview, forceUnloc
           </div>
         </motion.div>
 
-        {/* Midnight Testing Toggle */}
-        <button
-          onClick={togglePreview}
-          className="mb-8 px-4 py-2 rounded-full bg-slate-900/90 hover:bg-slate-800 text-slate-300 text-xs border border-rose-500/30 transition-colors flex items-center gap-2 cursor-pointer shadow-lg"
-        >
-          <KeyRound className="w-4 h-4 text-rose-400" />
-          <span>
-            {forceUnlockPreview
-              ? '🔒 Switch Back to Advance Countdown'
-              : '🔓 Test & Unlock Everything Now (Preview Mode)'}
-          </span>
-        </button>
-
         {/* Scroll CTA */}
         <motion.button
           whileHover={{ y: 5 }}

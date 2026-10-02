@@ -160,15 +160,6 @@ export default function App() {
                     <Sparkles className="w-4 h-4 animate-spin" />
                     <span>Countdown in Progress... Stay Tuned!</span>
                   </div>
-
-                  {/* Preview Button for Testing */}
-                  <button
-                    onClick={togglePreview}
-                    className="mt-2 px-5 py-2.5 rounded-full bg-rose-500/20 hover:bg-rose-500/30 text-rose-200 text-xs font-semibold border border-rose-400/30 transition-colors flex items-center gap-2 cursor-pointer"
-                  >
-                    <KeyRound className="w-4 h-4 text-rose-400" />
-                    <span>Test & Unlock Everything Now (Preview Mode)</span>
-                  </button>
                 </div>
               </motion.div>
             ) : (
