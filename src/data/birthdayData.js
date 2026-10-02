@@ -1,3 +1,9 @@
+import queenImg from '../assets/images/chakkara_birthday_queen.jpg';
+import realImg from '../assets/images/kukku_chakkara_real.jpg';
+import bitmojiImg from '../assets/images/couple_bitmoji.jpg';
+import retroImg from '../assets/images/chakkara_1980s_retro.jpg';
+import corporateImg from '../assets/images/chakkara_corporate.jpg';
+
 export const birthdayData = {
   // 1. General & Personalization Info
   recipientName: "Chakkara", 
@@ -58,7 +64,7 @@ export const birthdayData = {
       date: "September 26",
       title: "The Magical First Meeting 🌹❤️",
       description: "September 26 — The unforgettable day we finally met face-to-face! The butterflies, the warm eye contact, and the official start of our beautiful relationship.",
-      image: "./images/kukku_chakkara_real.jpg",
+      image: realImg,
       imageAlign: "img-align-selfie",
       quote: "Seeing you in person turned all my dreams into reality."
     },
@@ -68,7 +74,7 @@ export const birthdayData = {
       date: "Memories Together",
       title: "Building Our World 👩‍❤️‍👨",
       description: "From that magical September day onwards, every single day with Chakkara has been filled with laughter, love, and special memories.",
-      image: "./images/couple_bitmoji.jpg",
+      image: bitmojiImg,
       imageAlign: "img-align-bitmoji",
       quote: "With you, every place feels like home."
     },
@@ -78,7 +84,7 @@ export const birthdayData = {
       date: "October 03",
       title: "Celebrating My Chakkara 🎉",
       description: "Happy Birthday to the most amazing girl in the world! Kukku loves you endlessly and is so excited to create a million more chapters with you.",
-      image: "./images/chakkara_birthday_queen.jpg",
+      image: queenImg,
       imageAlign: "img-align-queen",
       quote: "You deserve all the happiness in the world today and forever."
     }
@@ -90,7 +96,7 @@ export const birthdayData = {
   photos: [
     {
       id: 1,
-      url: "./images/chakkara_birthday_queen.jpg",
+      url: queenImg,
       caption: "Birthday Queen Chakkara 👑✨",
       location: "Special Birthday Girl",
       rotate: "-rotate-2",
@@ -98,7 +104,7 @@ export const birthdayData = {
     },
     {
       id: 2,
-      url: "./images/kukku_chakkara_real.jpg",
+      url: realImg,
       caption: "Kukku & Chakkara — Our Favorite Selfie Together ❤️",
       location: "Together Forever",
       rotate: "rotate-2",
@@ -106,7 +112,7 @@ export const birthdayData = {
     },
     {
       id: 3,
-      url: "./images/chakkara_1980s_retro.jpg",
+      url: retroImg,
       caption: "1980s Retro Vintage Kerala Queen 👸✨",
       location: "Timeless Grace",
       rotate: "-rotate-1",
@@ -114,7 +120,7 @@ export const birthdayData = {
     },
     {
       id: 4,
-      url: "./images/chakkara_corporate.jpg",
+      url: corporateImg,
       caption: "Corporate Boss Girl Smile 💼✨",
       location: "Professional Charm",
       rotate: "rotate-3",
@@ -122,7 +128,7 @@ export const birthdayData = {
     },
     {
       id: 5,
-      url: "./images/couple_bitmoji.jpg",
+      url: bitmojiImg,
       caption: "Silly 3D Avatars of Us 💖",
       location: "Fun Times",
       rotate: "-rotate-2",
@@ -185,8 +191,14 @@ export const birthdayData = {
     defaultPin: "26092026",
     hint: "Hint: The special date we first met!",
     secretMessage: "Chakkara, you found the hidden vault! 🎉 Ever since the day we first met, my life has been filled with pure magic. You mean absolute everything to Kukku. My secret promise: I will love you more today than yesterday, and even more tomorrow!",
-    secretPhoto: "./images/kukku_chakkara_real.jpg"
+    secretPhoto: realImg
   },
+
+  // 10. Final Closing Section
+  finalMessageHeader: "No Matter Where Life Takes Us...",
+  finalMessageSub: "I hope we keep creating beautiful memories together forever. Happy Birthday Chakkara! ❤️",
+  footerText: "Crafted with endless love by Kukku ✨"
+};
 
   // 10. Final Closing Section
   finalMessageHeader: "No Matter Where Life Takes Us...",

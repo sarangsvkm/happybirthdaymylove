@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Clock, ArrowDown, Sparkles, Lock, Unlock, KeyRound } from 'lucide-react';
+import { Heart, Clock, ArrowDown, Sparkles, Lock, Unlock } from 'lucide-react';
 import { birthdayData } from '../data/birthdayData';
+import queenImg from '../assets/images/chakkara_birthday_queen.jpg';
 
 export default function BirthdayHero({ activeUnlocked, togglePreview, forceUnlockPreview }) {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -84,7 +85,7 @@ export default function BirthdayHero({ activeUnlocked, togglePreview, forceUnloc
         >
           <div className="w-full h-full rounded-full overflow-hidden border-4 border-[#0b0512] relative bg-slate-900">
             <img
-              src="./images/chakkara_birthday_queen.jpg"
+              src={queenImg}
               alt="Birthday Queen Chakkara"
               className="w-full h-full object-cover img-align-avatar group-hover:scale-105 transition-transform duration-500"
             />
