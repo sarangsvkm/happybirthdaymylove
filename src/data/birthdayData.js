@@ -199,9 +199,3 @@ export const birthdayData = {
   finalMessageSub: "I hope we keep creating beautiful memories together forever. Happy Birthday Chakkara! ❤️",
   footerText: "Crafted with endless love by Kukku ✨"
 };
-
-  // 10. Final Closing Section
-  finalMessageHeader: "No Matter Where Life Takes Us...",
-  finalMessageSub: "I hope we keep creating beautiful memories together forever. Happy Birthday Chakkara! ❤️",
-  footerText: "Crafted with endless love by Kukku ✨"
-};
