@@ -84,7 +84,7 @@ export default function BirthdayHero({ activeUnlocked, togglePreview, forceUnloc
         >
           <div className="w-full h-full rounded-full overflow-hidden border-4 border-[#0b0512] relative bg-slate-900">
             <img
-              src="/images/chakkara_birthday_queen.jpg"
+              src="./images/chakkara_birthday_queen.jpg"
               alt="Birthday Queen Chakkara"
               className="w-full h-full object-cover img-align-avatar group-hover:scale-105 transition-transform duration-500"
             />
